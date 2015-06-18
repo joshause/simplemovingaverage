@@ -8,7 +8,7 @@ module.exports = function(config) {
     frameworks: ['jasmine'],
 
     files: [
-      'js/simplemovingaverage.js',
+      'simplemovingaverage.js',
       'test/*.js'
     ],
 

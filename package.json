@@ -1,14 +1,11 @@
 {
   "name": "simplemovingaverage",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simple moving average time series smoothing.",
   "engines": {
     "node": "*"
   },
-  "main": "js/simplemorsecode.js",
-  "files": [
-    "js/simplemorsecode.js"
-  ],
+  "main": "simplemorsecode.js",
   "devDependencies": {
     "gulp": "latest",
     "gulp-karma": "latest",
@@ -19,7 +16,7 @@
     "jasmine-core": "latest",
     "gulp-connect": "latest"
   },
-  "repository": "joshause/simplemovingaverage.js",
+  "repository": "joshause/simplemovingaverage",
   "keywords": [
     "simplemovingaverage",
     "simplemovingaverage.js",
@@ -30,6 +27,6 @@
   "author": "Josh Ause",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/joshause/simplemovingaverage.js/issues"
+    "url": "https://github.com/joshause/simplemovingaverage/issues"
   }
 }

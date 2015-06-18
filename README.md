@@ -32,8 +32,9 @@ sma.get(setTimeSeries, intWindowSize);
 
 ## Tests
 
+Gulp + Karma + PhantomJS + Jasmine
+
 ```bash
-# Jasmine <- Karma <- Gulp
 $ gulp
 ```
 
