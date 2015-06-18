@@ -7,7 +7,7 @@ Simple moving average time series smoothing in JavaScript.
 ## Install
 
 ```
-$ npm install npm i simplemovingaverage
+$ npm install simplemovingaverage
 ```
 
 ## Usage
