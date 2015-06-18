@@ -1,6 +1,6 @@
 {
   "name": "simplemovingaverage",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Simple moving average time series smoothing.",
   "engines": {
     "node": "*"
