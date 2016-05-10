@@ -5,7 +5,7 @@
   "engines": {
     "node": "*"
   },
-  "main": "simplemorsecode.js",
+  "main": "simplemovingaverage.js",
   "devDependencies": {
     "gulp": "latest",
     "gulp-karma": "latest",
