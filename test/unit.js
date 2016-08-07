@@ -2,6 +2,8 @@
 
   'use strict';
 
+  var SimpleMovingAverage = require("../simplemovingaverage.js");
+
   describe('simplemovingaverage.js', function() {
 
     it('is a thing', function() {
