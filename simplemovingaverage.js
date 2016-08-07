@@ -29,7 +29,7 @@
         if (i === setTimeSeries.length) {
           resultSet.push(deco(subset));
           return resultSet;
-        }
+        } else
         if (j === 0) {
           resultSet.push(deco(subset));
           subset = [];

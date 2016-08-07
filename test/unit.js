@@ -48,7 +48,7 @@
 
     });
 
-    describe('.memoize() no repeat input test', function() {
+    describe(".memoize() no repeat input test", function() {
 
       var foo = {};
 
@@ -58,7 +58,7 @@
 
         foo = {
           setBar: function(value) {
-            bar = value;
+            var bar = value;
           }
         };
 
@@ -87,7 +87,7 @@
 
         foo = {
           setBar: function(value) {
-            bar = value;
+            var bar = value;
           }
         };
 
