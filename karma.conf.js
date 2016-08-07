@@ -3,20 +3,20 @@
 module.exports = function(config) {
   config.set({
 
-    basePath: '',
+    basePath: "",
 
-    frameworks: ['browserify', 'jasmine'],
+    frameworks: ["browserify", "jasmine"],
 
     files: [
-      'simplemovingaverage.js',
-      'test/*.js'
+      "simplemovingaverage.js",
+      "test/*.js"
     ],
 
     preprocessors: {
-      'test/*.js': [ 'browserify' ]
+      "test/*.js": ["browserify"]
     },
 
-    reporters: ['spec'],
+    reporters: ["spec"],
 
     port: 9876,
 
@@ -24,13 +24,13 @@ module.exports = function(config) {
 
     autoWatch: true,
 
-    browsers: ['PhantomJS'],
+    browsers: ["PhantomJS"],
 
     plugins : [
-      'karma-browserify',
-      'karma-jasmine',
-      'karma-spec-reporter',
-      'karma-phantomjs-launcher',
+      "karma-browserify",
+      "karma-jasmine",
+      "karma-spec-reporter",
+      "karma-phantomjs-launcher",
     ],
 
     singleRun: false
