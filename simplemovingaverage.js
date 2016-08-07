@@ -26,11 +26,11 @@
         subset.push(setTimeSeries[i]);
         i++;
         j--;
-        if (i == setTimeSeries.length) {
+        if (i === setTimeSeries.length) {
           resultSet.push(deco(subset));
           return resultSet;
         }
-        if (j == 0) {
+        if (j === 0) {
           resultSet.push(deco(subset));
           subset = [];
           j = intWindowSize;
@@ -61,8 +61,8 @@
     };
   };
 
-  if (typeof exports !== 'undefined') {
-    if (typeof module !== 'undefined' && module.exports) {
+  if (typeof exports !== "undefined") {
+    if (typeof module !== "undefined" && module.exports) {
       exports = module.exports = SimpleMovingAverage;
     } else {
       exports.SimpleMovingAverage = SimpleMovingAverage;
