@@ -9,7 +9,7 @@
   "devDependencies": {
     "gulp": "latest",
     "gulp-karma": "latest",
-    "karma": "latest",
+    "karma": "0.13",
     "karma-jasmine": "latest",
     "karma-phantomjs-launcher": "latest",
     "karma-spec-reporter": "latest",
