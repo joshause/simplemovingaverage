@@ -3,6 +3,9 @@
 Simple moving average time series smoothing in JavaScript.
 
 [![Build Status](https://travis-ci.org/joshause/simplemovingaverage.svg?branch=master)](https://travis-ci.org/joshause/simplemovingaverage)
+[![Codacy](https://api.codacy.com/project/badge/grade/2fa1778a07fd47f5aac1392e389cea42)](https://www.codacy.com/app/joshua-ause/simplemovingaverage)
+[![npm](https://img.shields.io/npm/v/simplemovingaverage.svg)](https://www.npmjs.com/package/simplemovingaverage)
+[![npm](https://img.shields.io/npm/dm/simplemovingaverage.svg)](https://www.npmjs.com/package/simplemovingaverage)
 [![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
 
 ## Install
