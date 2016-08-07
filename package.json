@@ -9,14 +9,15 @@
   "devDependencies": {
     "browserify": "latest",
     "gulp": "latest",
+    "gulp-connect": "latest",
     "gulp-karma": "latest",
+    "jasmine-core": "latest",
     "karma": "0.13",
+    "karma-browserify": "latest",
     "karma-jasmine": "latest",
     "karma-phantomjs-launcher": "latest",
     "karma-spec-reporter": "latest",
-    "karma-browserify": "latest",
-    "jasmine-core": "latest",
-    "gulp-connect": "latest"
+    "watchify": "^3.7.0"
   },
   "repository": "joshause/simplemovingaverage",
   "keywords": [
