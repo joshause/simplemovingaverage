@@ -71,4 +71,4 @@
     window.SimpleMovingAverage = SimpleMovingAverage;
   }
 
-})();
+}());
