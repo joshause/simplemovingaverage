@@ -5,12 +5,16 @@ module.exports = function(config) {
 
     basePath: '',
 
-    frameworks: ['jasmine'],
+    frameworks: ['browserify', 'jasmine'],
 
     files: [
       'simplemovingaverage.js',
       'test/*.js'
     ],
+
+    preprocessors: {
+      'test/*.js': [ 'browserify' ]
+    },
 
     reporters: ['spec'],
 
@@ -23,9 +27,10 @@ module.exports = function(config) {
     browsers: ['PhantomJS'],
 
     plugins : [
-        'karma-jasmine',
-        'karma-spec-reporter',
-        'karma-phantomjs-launcher',
+      'karma-browserify',
+      'karma-jasmine',
+      'karma-spec-reporter',
+      'karma-phantomjs-launcher',
     ],
 
     singleRun: false

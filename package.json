@@ -7,12 +7,14 @@
   },
   "main": "simplemovingaverage.js",
   "devDependencies": {
+    "browserify": "latest",
     "gulp": "latest",
     "gulp-karma": "latest",
     "karma": "0.13",
     "karma-jasmine": "latest",
     "karma-phantomjs-launcher": "latest",
     "karma-spec-reporter": "latest",
+    "karma-browserify": "latest",
     "jasmine-core": "latest",
     "gulp-connect": "latest"
   },
