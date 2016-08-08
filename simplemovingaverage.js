@@ -1,6 +1,6 @@
-// simplemovingaverage.js v1.0.0
-
 (function() {
+
+  'use strict';
 
   var SimpleMovingAverage = function() {};
 
@@ -61,8 +61,8 @@
     };
   };
 
-  if (typeof exports !== "undefined") {
-    if (typeof module !== "undefined" && module.exports) {
+  if (typeof exports !== 'undefined') {
+    if (typeof module !== 'undefined' && module.exports) {
       exports = module.exports = SimpleMovingAverage;
     } else {
       exports.SimpleMovingAverage = SimpleMovingAverage;

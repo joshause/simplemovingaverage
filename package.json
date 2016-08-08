@@ -8,6 +8,7 @@
   "main": "simplemovingaverage.js",
   "devDependencies": {
     "browserify": "latest",
+    "babelify": "~5.0.3",
     "gulp": "latest",
     "gulp-connect": "latest",
     "gulp-karma": "latest",
